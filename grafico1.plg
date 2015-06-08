@@ -1,0 +1,7 @@
+# Gnuplot script file for plotting data in file "filename.dat"
+# This file is called simulacion.plg
+set title "Lotka-Volterra Grafico 1"
+set xlabel "Tiempo"
+set ylabel "Cantidad"
+plot filename using 1:2 title 'Nro Presas' with linespoints, filename using 1:3 title 'Nro Depredadores' with linespoints
+#pause -1 "Presiona una tecla para salir del Grafico 1"

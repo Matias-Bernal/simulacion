@@ -1,0 +1,7 @@
+# Gnuplot script file for plotting data in file "filename.dat"
+# This file is called grafico2.plg
+set title "Lotka-Volterra Grafico 2"
+set xlabel "Nro Presas"
+set ylabel "Nro Depredadores"
+plot filename title 'Tiempo' with linespoints
+#pause -1 "Presiona una tecla para salir del Grafico 2"
