@@ -19,10 +19,10 @@ public class Main {
 		lv.simulacion();
 		System.out.println("-----------------------------------");
 		System.out.println("Dat file grafico1.dat");
-		System.out.println(lv.generate_grap1());
+		System.out.println(lv.getGraficos().getFirst());
 		System.out.println("-----------------------------------");
 		System.out.println("Dat file grafico2.dat");
-		System.out.println(lv.generate_grap2());
+		System.out.println(lv.getGraficos().getLast());
 	}
 
 }
